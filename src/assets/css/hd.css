@@ -1,0 +1,634 @@
+
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    
+        .hd_head{
+            padding: 2rem;
+            max-width: 100%;
+            box-sizing: border-box;
+                
+                
+        }
+    .holidayDetails > .hd_head>.package_title{
+        font-size: 1.5rem;
+        font-family: var(--main-font);
+        font-weight: 600;
+        line-height: 3rem;
+    }
+    .holidayDetails > .hd_head>p{
+        margin-bottom: 1.5rem;
+        font-size: .8rem;
+        font-family: var(--main-font);
+        font-weight: 500;
+        background-color: var(--footer-color);
+        width: fit-content;
+        padding: .3rem .5rem;
+        border-radius: 1rem;
+    }
+    .gallery{
+        position: relative;
+        width: 100%;
+        height: 350px;
+        margin: auto;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        grid-gap: 2vmin;
+        grid-auto-flow: dense;
+        overflow: hidden;
+        
+    }
+    .gallery img{
+        position: relative;
+        height: auto;
+        width: 100%;
+        
+
+    }
+    .gallery div:first-child{
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .gallery div:last-child{
+        grid-column: 3/span 2;
+        grid-row-start: span 2;
+    }
+    .allgallery >.image{
+        position: relative;
+    }
+    .allgallery >.image>h4{
+        margin-left: 1rem;
+        position: absolute;
+        bottom: 10%;
+        color: white;
+        padding: .5rem 1rem;
+        border: 1px solid white;
+        font-family: var(--main-font);
+        border-radius: 2rem;
+        font-size: 1rem;
+        font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.171);
+    }
+    
+    .hd-level{
+        display: flex;
+        margin: 0 2rem;
+        column-gap: 2rem;
+    }
+    .hd-level>h4{
+        font-family: var(--main-font);
+        font-size: 1rem;
+    }
+    .hd-level>h4:hover{
+        padding-bottom: 1rem;
+        border-bottom: 3px solid var(--action-color);
+    }
+    .hd-body{
+        background-color: var(--package-background-color);
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 2rem 2rem 2rem;
+    }
+    .hd-body >.hd-main-section{
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+        width: 75%;
+    }
+
+    
+    .hd-body >.price-calc{
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+        width: 20%;
+        height: 250px;
+        padding: 1rem;
+        font-family: var(--main-font);
+        position:sticky;
+        top:5%
+    }
+
+    .react-datepicker__input-container input {
+        width: 100px; 
+        border: none;
+        outline: none;
+        background-color: var(--footer-color);
+        /* Adjust the width as needed */
+      }
+    .hd-body >.price-calc >.dis-price{
+        display: flex;
+        justify-content: space-between;
+        font-size: .8rem;
+        font-weight: 500;
+        color: rgba(112, 117, 124, 1);
+    }
+    .hd-body >.price-calc >.dis-price>.offer{
+        background-color: rgba(238, 4, 5, 1);
+        color: white;
+        padding: 3px 6px
+        ;
+    }
+    .hd-body >.price-calc >.net-price{
+        margin: 1rem 0;
+        font-size: .8rem;
+        color: rgba(112, 117, 124, 1);
+        font-size: 500;
+        line-height: 1.5rem;
+
+    }
+    .hd-body >.price-calc >.net-price span{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--p1-text-color);
+
+    }
+    .hd-body >.price-calc >.hd-calendar{
+        display: flex;
+        justify-content: space-between;
+        font-size: .9rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--bottom-boder-color);
+    }
+    .hd-body >.price-calc >.hd-calendar h4{
+        color: var(--action-color);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .hd-body >.price-calc>.booking-process{
+        margin: 1rem 0;
+        text-align: center;
+        padding: .5rem .8rem;
+        background-color: var(--action-color);
+        border-radius: 2rem;
+        font-size: 1rem;
+        color:white
+    }
+    .hd-itinerary >.date-title{
+        display: flex;
+        background-color: var(--footer-color);
+        padding: 1rem 0;
+        gap:2rem;
+        justify-content: space-around;
+
+    }
+    .hd-itinerary >.date-title>h4{
+        font-family: var(--main-font);
+        font-size: .9rem;
+        padding: .5rem ;
+    }
+    .hd-itinerary >.date-title>.dates{
+        display: flex;
+        gap:1rem;
+        width: 70%;
+
+    }
+    .hd-itinerary >.date-title>.dates>p{
+        border: 1px solid var(--action-color);
+        color: var(--action-color);
+        padding: .5rem .8rem;
+        border-radius: 1rem;
+        font-size: .7rem;
+        font-family: var(--main-font);
+    }
+    .hd-itinerary >.date-title>.share-down{
+      display: flex;
+      align-items: center;  
+      gap: .5rem
+    }
+    .hd-itinerary >.date-title>.share-down>i{
+        color:white;
+        font-size: .8rem;
+        padding: 3px 6px 2px 5px;
+        background-color: var(--action-color);
+        border-radius: 1rem;
+        
+    }
+    .days-activity{
+        margin: 2rem 0;
+        background-color: white;
+    }
+    .days-activity  >.days-title{
+        background-color: white;
+        display: flex;
+        justify-content:space-between;
+        
+    }
+    .days-activity  >.days-title>.days-num{
+        font-size: .8rem;
+        font-family: var(--main-font);
+        background-color: var( --p1-text-color);
+        color: white;
+        padding: .8rem 1rem;
+    }
+    .days-activity  >.days-title > .overview-icon{
+        padding: .8rem ;
+        display: flex;
+        gap: .5rem;
+    }
+    .days-activity  >.days-title > .overview-icon>div>span{
+        font-size: .8rem;
+        padding: 3px;
+        font-family: var(--main-font);
+    }
+    .days-activity>.activity-title{
+        font-size: 1rem;
+        font-family: var(--main-font);
+        font-weight: 500;
+        padding: 1rem;
+    }
+    .days-activity>.activity-title>span{
+        font-weight: 100;
+    }
+    .single-activity{
+        background-color: white;
+        display: flex;
+        gap: 1.5rem;
+        padding: 1rem;
+        color:var(--p1-text-color);
+        border-bottom: 1px solid var(--bottom-boder-color);
+    }
+
+  
+    .single-activity>.activity-image>img{
+        width: 15rem;
+        height: 10rem;
+        border-radius: 1rem;
+    }
+    .single-activity>.activity-info>#type{
+        font-size: .8rem;
+        font-family: var(--main-font);
+        background-color: blue;
+        background-image: linear-gradient(to bottom right, blue, red);
+        color:white;
+        width: fit-content;
+        padding: 2px 4px;
+        font-weight: 500;
+    }
+    .single-activity>.activity-info>h4{
+        font-size: 1.2rem;
+        font-family: var(--main-font);
+        font-weight: 500;
+        line-height: 1.5rem;
+
+    }
+    .single-activity>.activity-info>.activity-place{
+        font-size: .8rem;
+        font-family: var(--main-font);
+        font-weight: 400;
+    }
+    .single-activity>.activity-info>.activity-target-place{
+        margin: 1rem 0;
+        display: grid;
+        grid-template-columns: auto auto ;
+        font-size: .8rem;
+        font-weight: 400;
+        color: var(--attract-color);
+        list-style-position: inside;
+        gap:.5rem
+    }
+    .single-activity>.activity-info> .activity-timesheet{
+        display: flex;
+        gap:1rem;
+        font-size: .7rem;
+        font-weight: 400;
+        font-family: var(--main-font);
+       
+
+    }
+    .single-activity>.activity-info> .activity-timesheet #title{
+  color: var(--paragraph-content-color);
+    }
+    .Hotel_chnage{
+        width: 50%;
+    }
+    .room-info{
+        font-family: var(--main-font);
+        background-color: rgba(241, 244, 248, 1);
+        border: 1px solid rgb(223, 224, 224);
+        padding: .5rem 1rem .5rem 1rem;
+        border-radius: 1rem;
+        margin: 1rem;
+        border-bottom: 1px solid var(--bottom-boder-color);
+    }
+     .amenities{
+        font-size: .8rem;
+        line-height: 1.5rem;
+        color: var(--p1-text-color)
+    }
+  .a_info{
+        font-size: 1rem;
+    }
+}
+@media (min-width:1440px){
+     
+    .hd_head{
+        padding: 2rem;
+        max-width: 100%;
+        box-sizing: border-box;
+            
+            
+    }
+.holidayDetails > .hd_head>.package_title{
+    font-size: 1.5rem;
+    font-family: var(--main-font);
+    font-weight: 600;
+    line-height: 3rem;
+}
+.holidayDetails > .hd_head>p{
+    margin-bottom: 1.5rem;
+    font-size: .8rem;
+    font-family: var(--main-font);
+    font-weight: 500;
+    background-color: var(--footer-color);
+    width: fit-content;
+    padding: .3rem .5rem;
+    border-radius: 1rem;
+}
+.gallery{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 2vmin;
+    grid-auto-flow: dense;
+    overflow: hidden;
+    
+}
+.gallery img{
+    position: relative;
+    height: auto;
+    width: 100%;
+    
+
+}
+.gallery div:first-child{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+.gallery div:last-child{
+    grid-column: 3/span 2;
+    grid-row-start: span 2;
+}
+.allgallery >.image{
+    position: relative;
+}
+.allgallery >.image>h4{
+    margin-left: 1rem;
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    font-family: var(--main-font);
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+.hd-level{
+    display: flex;
+    margin: 0 2rem;
+    column-gap: 2rem;
+}
+.hd-level>h4{
+    font-family: var(--main-font);
+    font-size: 1rem;
+}
+.hd-level>h4:hover{
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--action-color);
+}
+.hd-body{
+    background-color: var(--package-background-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 2rem 2rem 2rem;
+}
+.hd-body >.hd-main-section{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    width: 75%;
+}
+
+
+.hd-body >.price-calc{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    width: 20%;
+    height: 250px;
+    padding: 1rem;
+    font-family: var(--main-font);
+    position:sticky;
+    top:5%
+}
+
+.react-datepicker__input-container input {
+    width: 100px; 
+    border: none;
+    outline: none;
+    background-color: var(--footer-color);
+    /* Adjust the width as needed */
+  }
+.hd-body >.price-calc >.dis-price{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    font-weight: 500;
+    color: rgba(112, 117, 124, 1);
+}
+.hd-body >.price-calc >.dis-price>.offer{
+    background-color: rgba(238, 4, 5, 1);
+    color: white;
+    padding: 3px 6px
+    ;
+}
+.hd-body >.price-calc >.net-price{
+    margin: 1rem 0;
+    font-size: .8rem;
+    color: rgba(112, 117, 124, 1);
+    font-size: 500;
+    line-height: 1.5rem;
+
+}
+.hd-body >.price-calc >.net-price span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--p1-text-color);
+
+}
+.hd-body >.price-calc >.hd-calendar{
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--bottom-boder-color);
+}
+.hd-body >.price-calc >.hd-calendar h4{
+    color: var(--action-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.hd-body >.price-calc>.booking-process{
+    margin: 1rem 0;
+    text-align: center;
+    padding: .5rem .8rem;
+    background-color: var(--action-color);
+    border-radius: 2rem;
+    font-size: 1rem;
+    color:white
+}
+.hd-itinerary >.date-title{
+    display: flex;
+    background-color: var(--footer-color);
+    padding: 1rem 0;
+    gap:2rem;
+    justify-content: space-around;
+
+}
+.hd-itinerary >.date-title>h4{
+    font-family: var(--main-font);
+    font-size: .9rem;
+    padding: .5rem ;
+}
+.hd-itinerary >.date-title>.dates{
+    display: flex;
+    gap:1rem;
+    width: 70%;
+
+}
+.hd-itinerary >.date-title>.dates>p{
+    border: 1px solid var(--action-color);
+    color: var(--action-color);
+    padding: .5rem .8rem;
+    border-radius: 1rem;
+    font-size: .7rem;
+    font-family: var(--main-font);
+}
+.hd-itinerary >.date-title>.share-down{
+  display: flex;
+  align-items: center;  
+  gap: .5rem
+}
+.hd-itinerary >.date-title>.share-down>i{
+    color:white;
+    font-size: .8rem;
+    padding: 3px 6px 2px 5px;
+    background-color: var(--action-color);
+    border-radius: 1rem;
+    
+}
+.days-activity{
+    margin: 2rem 0;
+    background-color: white;
+}
+.days-activity  >.days-title{
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.days-activity  >.days-title>.days-num{
+    font-size: .8rem;
+    font-family: var(--main-font);
+    background-color: var( --p1-text-color);
+    color: white;
+    padding: .8rem 1rem;
+}
+.days-activity  >.days-title > .overview-icon{
+    padding: .8rem ;
+    display: flex;
+    gap: .5rem;
+}
+.days-activity  >.days-title > .overview-icon>div>span{
+    font-size: .8rem;
+    padding: 3px;
+    font-family: var(--main-font);
+}
+.days-activity>.activity-title{
+    font-size: 1rem;
+    font-family: var(--main-font);
+    font-weight: 500;
+    padding: 1rem;
+}
+.days-activity>.activity-title>span{
+    font-weight: 100;
+}
+.single-activity{
+    background-color: white;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    color:var(--p1-text-color);
+    border-bottom: 1px solid var(--bottom-boder-color);
+}
+
+
+.single-activity>.activity-image>img{
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+.single-activity>.activity-info>#type{
+    font-size: .8rem;
+    font-family: var(--main-font);
+    background-color: blue;
+    background-image: linear-gradient(to bottom right, blue, red);
+    color:white;
+    width: fit-content;
+    padding: 2px 4px;
+    font-weight: 500;
+}
+.single-activity>.activity-info>h4{
+    font-size: 1.2rem;
+    font-family: var(--main-font);
+    font-weight: 500;
+    line-height: 1.5rem;
+
+}
+.single-activity>.activity-info>.activity-place{
+    font-size: .8rem;
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+.single-activity>.activity-info>.activity-target-place{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: auto auto ;
+    font-size: .8rem;
+    font-weight: 400;
+    color: var(--attract-color);
+    list-style-position: inside;
+    gap:.5rem
+}
+.single-activity>.activity-info> .activity-timesheet{
+    display: flex;
+    gap:1rem;
+    font-size: .7rem;
+    font-weight: 400;
+    font-family: var(--main-font);
+   
+
+}
+.single-activity>.activity-info> .activity-timesheet #title{
+color: var(--paragraph-content-color);
+}
+.Hotel_chnage{
+    width: 50%;
+}
+.room-info{
+    font-family: var(--main-font);
+    background-color: rgba(241, 244, 248, 1);
+    border: 1px solid rgb(223, 224, 224);
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    border-bottom: 1px solid var(--bottom-boder-color);
+}
+ .amenities{
+    font-size: .8rem;
+    line-height: 1.5rem;
+    color: var(--p1-text-color)
+}
+.a_info{
+    font-size: 1rem;
+}
+}

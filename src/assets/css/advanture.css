@@ -1,0 +1,426 @@
+@media screen and (max-width: 767px) {
+    .adventure {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+
+    .adventure-header {
+        padding: 0 4vw;
+        font-size: 6vw;
+        font-family: var(--main-font);
+        line-height: 9vw;
+        font-weight: 600;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box;
+
+    }
+
+    .adventure-header>h3>span {
+        font-weight: 300;
+    }
+
+    .adventure-desc {
+        width: 95%;
+        padding: 2vw 0 0 4vw;
+        font-size: 4vw;
+        font-family: var(--main-font);
+        line-height: 5.5vw;
+        font-weight: 400;
+        color: rgba(97, 102, 107, 1);
+
+    }
+
+    .view-adventure {
+        margin: 10vw 4vw;
+
+    }
+
+    .view-adventure>a {
+        padding: 4.5vw 10vw;
+        font-size: 4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: black;
+        border: 1px solid black;
+    }
+
+    .adventure-img {
+        margin-top: 10vw;
+        height: 500px;
+        background: rgba(241, 247, 255, 1);
+        background-size: 200px;
+        position: relative;
+    }
+
+    .adventure-img>#one {
+        width: 155px;
+        height: 195px;
+        position: absolute;
+        right: 10%;
+        top: 15%
+    }
+
+    .adventure-img>#two {
+        width: 125px;
+        height: 160px;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+
+    }
+
+    .adventure-img>#three {
+        width: 125px;
+        height: 181px;
+        position: absolute;
+        right: 20%;
+        top: 60%;
+
+    }
+
+    .adventure-img>.offer {
+        width: 180px;
+        position: absolute;
+        font-family: var(--main-font);
+        color: rgba(238, 4, 5, 1);
+        font-weight: 500;
+        left: 3%;
+        top: 65%
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .adventure {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+
+    .adventure-header {
+        padding: 0 4vw;
+        font-size: 5vw;
+        font-family: var(--main-font);
+        line-height: 8vw;
+        font-weight: 600;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box;
+
+    }
+
+    .adventure-header>h3>span {
+        font-weight: 300;
+    }
+
+    .adventure-desc {
+        width: 90%;
+        padding: 2vw 0 0 4vw;
+        font-size: 3vw;
+        font-family: var(--main-font);
+        line-height: 4.5vw;
+        font-weight: 400;
+        color: rgba(97, 102, 107, 1);
+
+    }
+
+    .view-adventure {
+        margin: 10vw 0 10vw 4vw;
+
+
+    }
+
+    .view-adventure>a {
+        padding: 2vw 4vw;
+        font-size: 2vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+
+    .adventure-img {
+        margin-top: 10vw;
+        height: 600px;
+        background: rgba(241, 247, 255, 1);
+        background-size: 300px 200px;
+
+        position: relative;
+    }
+
+    .adventure-img>#one {
+        width: 225px;
+        height: 295px;
+        position: absolute;
+        left: 10vw
+    }
+
+    .adventure-img>#two {
+        width: 205px;
+        height: 260px;
+        position: absolute;
+        right: 20%;
+        top: 10%;
+
+    }
+
+    .adventure-img>#three {
+        width: 205px;
+        height: 255px;
+        position: absolute;
+        right: 40vw;
+        top: 50%;
+
+    }
+
+    .adventure-img>.offer {
+        width: 200px;
+        position: absolute;
+        left: 10%;
+        font-family: var(--main-font);
+        color: rgba(238, 4, 5, 1);
+        font-weight: 500;
+        top: 65%
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1366px) {
+    .adventure {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .adventure-details {
+        margin: 4vw 0;
+        width: 30%;
+    }
+
+    .adventure-header {
+        padding: 0 2vw 0 1vw;
+        font-size: 2.5vw;
+        font-family: var(--main-font);
+        line-height: 3.5vw;
+        font-weight: 600;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box;
+
+    }
+
+    .adventure-header>h3>span {
+        font-weight: 300;
+    }
+
+    .adventure-desc {
+        width: 90%;
+        padding: 2vw 0 0 1vw;
+        font-size: 1.4vw;
+        font-family: var(--main-font);
+        line-height: 2.5vw;
+        font-weight: 400;
+        color: rgba(97, 102, 107, 1);
+
+    }
+
+    .view-adventure {
+        margin: 5vw 0 5vw 1vw;
+
+
+    }
+
+    .view-adventure>a {
+        padding: 1.5vw 3vw;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+
+    .adventure-img {
+        margin-top: 4vw;
+        width: 70%;
+        height: 700px;
+        position: relative;
+
+    }
+
+    .adventure-img>#one {
+        width: 225px;
+        height: 295px;
+        position: absolute;
+        left: 10vw
+    }
+
+    .adventure-img>#two {
+        width: 205px;
+        height: 260px;
+        position: absolute;
+        right: 10%;
+        top: 10%;
+
+    }
+
+    .adventure-img>#three {
+        width: 205px;
+        height: 255px;
+        position: absolute;
+        right: 24vw;
+        top: 40%;
+
+    }
+
+    .adventure-img>.offer {
+        width: 180px;
+        position: absolute;
+        left: 10%;
+        font-family: var(--main-font);
+        color: rgba(238, 4, 5, 1);
+        font-weight: 500;
+        top: 50%
+    }
+
+}
+
+@media screen and (min-width: 1367px) {
+    .adventure {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .adventure-details {
+        margin: 4vw 0;
+        width: 30%;
+    }
+
+    .adventure-header {
+        padding: 0 2vw 0 1vw;
+        font-size: 2.5vw;
+        font-family: var(--main-font);
+        line-height: 3.5vw;
+        font-weight: 600;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box;
+
+    }
+
+    .adventure-header>h3>span {
+        font-weight: 300;
+    }
+
+    .adventure-desc {
+        width: 90%;
+        padding: 2vw 0 0 1vw;
+        font-size: 1.4vw;
+        font-family: var(--main-font);
+        line-height: 2.5vw;
+        font-weight: 400;
+        color: rgba(97, 102, 107, 1);
+
+    }
+
+    .view-adventure {
+        margin: 5vw 0 5vw 1vw;
+
+
+    }
+
+    .view-adventure>a {
+        padding: 1.5vw 3vw;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+
+    .adventure-img {
+        margin-top: 4vw;
+        width: 70%;
+        height: 700px;
+        position: relative;
+
+    }
+
+    .adventure-img>#one {
+        width: 225px;
+        height: 295px;
+        position: absolute;
+        left: 10vw
+    }
+
+    .adventure-img>#two {
+        width: 205px;
+        height: 260px;
+        position: absolute;
+        right: 10%;
+        top: 10%;
+
+    }
+
+    .adventure-img>#three {
+        width: 205px;
+        height: 255px;
+        position: absolute;
+        right: 24vw;
+        top: 40%;
+
+    }
+
+    .adventure-img>.offer {
+        width: 180px;
+        position: absolute;
+        left: 10%;
+        top: 65%;
+        font-family: var(--main-font);
+        color: rgba(238, 4, 5, 1);
+        font-weight: 500;
+    }
+
+}
+
+.top-block-slider {
+    /* height: 60vh;
+    object-fit: cover; */
+    width: 100%;
+    background: url('../img/homebody/adventure/Rectangle.svg');
+}
+
+.top-block-slider-bg {
+    max-height: 440px;
+    height: 100%;
+    object-fit: cover;
+    background-image: url('../img/homebody/adventure/Rectangle.svg');
+}
+
+/* YourCarouselStyles.css */
+.custom-prev-arrow,
+.custom-next-arrow {
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: #575757;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.custom-prev-arrow {
+    left: 10px;
+}
+
+.custom-next-arrow {
+    right: 10px;
+}

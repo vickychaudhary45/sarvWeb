@@ -1,0 +1,82 @@
+.price-calc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.dis-price {
+  /* Styles for discount price section */
+}
+
+.offer {
+  /* Styles for offer section */
+}
+
+.iframe {
+
+  width: 100% !important;
+}
+
+.category-type {
+  width: 95%;
+  margin-bottom: 20px;
+  /* border: 1px solid #ccc; */
+  /* padding: 10px; */
+  display: flex;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 10px;
+}
+
+.category-type p {
+  margin: 0;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.ticket-counter {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.counter-controls {
+  display: flex;
+  align-items: center;
+}
+
+.counter-controls button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.counter-controls button:hover {
+  background-color: #0056b3;
+}
+
+.counter-controls span {
+  margin: 0 10px;
+}

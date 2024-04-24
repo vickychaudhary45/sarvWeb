@@ -1,0 +1,587 @@
+@media screen and (max-width: 767px) {
+    .contactForm{
+        position: relative;
+        top: -20%;
+        margin-bottom: -20%;
+    }
+    .footerComponent{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* flex-direction: column; */
+        background-color: var(--footer-color);
+     
+    }
+    .contactForm:last-child {
+        order: -1;
+        grid-column: 1/2 span;
+    }
+    .form-container{
+        
+        border-radius: 14px;
+        padding: 1.5rem;
+        background-color: white;
+        margin: 2rem;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+
+    }
+    .form-container h1{
+    padding-bottom: 1.5rem;
+    font-size: 2.8vmax;
+    font-weight: 600;
+    font-family: var(--main-font);
+}
+.form-container h1 span{
+    font-weight: 300;
+}
+.message-form{
+    margin-top: calc(-1.5rem/2)
+}
+.form-column input,.form-column textarea{
+    font-family: var(--main-font);
+    outline: 1px solid var(--input-bg);
+    border:1px solid var(--input-color);
+    border-radius: 5px;
+    background-color: var(--input-bg);
+    width: 95%;
+    font-size: 16px;
+    padding: .6rem;
+    margin: calc(1.5rem/2) 0;
+}
+.form-row button{
+    width: 100%;
+    padding: .6rem;
+    font-size: 18px;
+    font-family: var(--main-font);
+    background-color: white;
+    border-radius: 43px;
+    outline: none;
+    border: 1px solid black;
+}
+.contactForm .social{
+    margin: 0 0 1.5rem 1.5rem;
+    padding-left: .6rem;
+}
+.contactForm .social i{
+    font-size: 20px;
+    padding-inline: .6rem
+}
+.compInfo{
+    grid-column: 1/2 span;
+    width: 80%;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    font-family: var(--main-font);
+}
+.compInfo p, .compInfo img{
+    padding: 1rem 0 0 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: var(--footer-text);
+    font-weight: 400;
+}
+.compInfo .logoinfo{
+    display: flex;
+    gap: 10px;
+    line-height: 23.44px;
+    align-items: center;
+}
+.compInfo .logoinfo p{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.pages{
+    grid-column: 2;
+    grid-row: 3/4 span;
+}
+.pages p a{ 
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--main-font);
+    text-decoration: none;
+    line-height: 2.5rem;
+    color: rgba(30, 33, 37, 1);
+    
+}
+.about {
+
+    float: left;
+    width: 80%;
+    padding: 0 0 1.5rem 1.5rem;
+    font-family: var(--main-font);
+}
+.about p, .about img{
+    padding: 0 0 .5rem 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: var(--footer-text);
+    font-weight: 400;
+}
+.about h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:rgba(55, 100, 214, 1);
+
+}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .contactForm{
+        position: relative;
+        top: -20%;
+        margin-bottom: -10%;
+
+    }
+    .footerComponent{
+        display: grid;
+        padding: 0 10vw;
+        grid-template-columns: 70% 30%;
+        /* flex-direction: column; */
+        background-color: var(--footer-color);
+     
+    }
+    .contactForm:last-child {
+        order: -1;
+        grid-column: 1/2 span;
+    }
+    .form-container{
+        
+        border-radius: 14px;
+        padding: 1.5rem;
+        background-color: white;
+        margin: 2rem;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+
+    }
+    .form-container h1{
+    padding-bottom: 1.5rem;
+    font-size: 2.8vmax;
+    font-weight: 600;
+    font-family: var(--main-font);
+}
+.form-container h1 span{
+    font-weight: 300;
+}
+.message-form{
+    margin-top: calc(-1.5rem/2)
+}
+.form-column input,.form-column textarea{
+    font-family: var(--main-font);
+    outline: 1px solid var(--input-bg);
+    border:1px solid var(--input-border);
+    border-radius: 5px;
+    background-color: var(--input-bg);
+    width: 100%;
+    font-size: 16px;
+    padding: .6rem;
+    margin: calc(1.5rem/2) 0;
+}
+.form-row button{
+    width: 100%;
+    padding: .6rem;
+    font-size: 18px;
+    font-family: var(--main-font);
+    background-color: white;
+    border-radius: 43px;
+    outline: none;
+    border: 1px solid black;
+}
+.contactForm .social{
+    margin: 0 0 1.5rem 1.5rem;
+    padding-left: .6rem;
+}
+.contactForm .social i{
+    font-size: 20px;
+    padding-inline: .6rem
+}
+.compInfo{
+    grid-column: 1/2 span;
+    width: 80%;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    font-family: var(--main-font);
+}
+.compInfo p, .compInfo img{
+    padding: 1rem 0 0 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: var(--footer-text);
+    font-weight: 400;
+}
+.compInfo .logoinfo{
+    display: flex;
+    gap: 10px;
+    line-height: 23.44px;
+    align-items: center;
+}
+.compInfo .logoinfo p{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.pages{
+    grid-column: 2;
+    grid-row: 3/4 span;
+}
+.pages p a{ 
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--main-font);
+    text-decoration: none;
+    line-height: 2.5rem;
+    color: rgba(30, 33, 37, 1);
+    
+}
+.about {
+
+    float: left;
+    width: 80%;
+    padding: 0 0 1.5rem 1.5rem;
+    font-family: var(--main-font);
+}
+.about p, .about img{
+    padding: 0 0 .5rem 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: var(--footer-text);
+    font-weight: 400;
+}
+.about h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:rgba(55, 100, 214, 1);
+
+}
+}
+
+@media screen and (min-width: 1025px) and (max-width:1366px) {
+    .footerComponent{
+        background-color: var(--footer-color);
+        width: 100%;
+        padding: 0 4vw 2vw 4vw;
+        box-sizing: border-box;
+        height: 413px;
+        display: grid;
+        grid-template-columns: .7fr .7fr .6fr 1fr;
+        font-family: var(--main-font);
+        align-items: start;
+        box-sizing: border-box;
+    }
+      /* Info section */
+     .footerComponent .compInfo{
+
+        padding: 2vw 2vw 0 2vw;
+        grid-column: 1;
+        grid-row: 1/2 span;
+        box-sizing: border-box;
+        height: 22vw;
+    }
+    .compInfo .logoinfo{
+        display: flex;
+        font-size: 1.8rem;
+        font-weight: 500;
+        gap: 1vw;
+        align-items: center;
+        margin-bottom: 7vw;
+    }
+    .compInfo > p{
+        margin: .5vw 0 1vw 0;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+
+    }
+
+    .footerComponent .pages{
+
+        padding: 4vw 2vw 0 2vw;;
+        grid-column: 3;
+        grid-row: 1/2 span;
+        height: 6vw;
+        /* background-color: rgb(127, 136, 255); */
+    }
+    .pages > p , .pages >p > a{
+        font-family: var(--main-font);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 3vw;
+        letter-spacing: 0em;
+        text-decoration: none;
+        text-decoration: none;
+        color: rgba(30, 33, 37, 1);
+
+    }
+    /* contact info */
+    .footerComponent .call{
+        padding: 2vw 2vw 0 2vw;;
+        grid-column: 2;
+        grid-row: 1;
+        height: 3vw;
+        /* background-color: rgb(255, 127, 234); */
+    }
+    .call > .about-logo{
+        margin: 2rem 0 0;
+    }
+    .about p{
+        font-family: var(--main-font);
+        font-size: .9rem;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+    }
+    .about h4{
+        color: var(--main-color);
+        font-family: var(--main-font);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+
+    }
+    .footerComponent .contactForm{
+        /* padding: 2vw; */
+        grid-column: 4;
+        grid-row: 1/2 span;
+        height: 30vw;
+        ;
+        /* background-color: rgb(255, 127, 127); */
+    }
+
+ 
+    .form-container{
+        
+        border-radius: 14px;
+        padding: 2.5rem;
+        background-color: white;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+
+    }
+    .form-container h1{
+    padding-bottom: 1vw;
+    font-size: 2.8vmax;
+    font-weight: 600;
+    font-family: var(--main-font);
+}
+.form-container h1 span{
+    font-weight: 300;
+}
+.form-column #name {
+    float: left;
+    width: 47%;
+    margin :calc(1vw/2) 2.2% calc(1vw/2) 0;
+    padding: .6rem;
+}
+.form-column #email{
+    float: left;
+    width: 47.5%;
+    margin :calc(1vw/2) 0 calc(1vw/2) 2.2%;
+    
+
+}
+.form-column #subject, .form-column #message , .form-row button{
+    width: 100%;
+}
+.form-column input,.form-column textarea{
+    font-family: var(--main-font);
+    outline: 1px solid var(--input-bg);
+    border:1px solid var(--input-border);
+    border-radius: 5px;
+    background-color: var(--input-bg);
+    font-size: 18px;
+    padding: .6rem;
+    margin: calc(1vw/2) 0;
+}
+.form-row button{
+    padding: .8rem;
+    font-size: 20px;
+    font-family: var(--main-font);
+    background-color: white;
+    border-radius: 43px;
+    outline: none;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid white;
+
+
+}
+.contactForm .social{
+    margin: 1.5rem 0 1.5rem 1.5rem;
+    /* padding-left: .6rem; */
+}
+.contactForm .social i{
+    font-size: 20px;
+    padding: .6rem .6rem .6rem 0
+}
+.contactForm{position: relative;
+    top:-20%;}
+  
+
+}
+@media screen and (min-width:1367px) {
+    .footerComponent{
+        background-color: var(--footer-color);
+        width: 100%;
+        padding: 0 4vw 2vw 4vw;
+        height: 450px;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: .7fr .6fr .5fr 1fr;
+        font-family: var(--main-font);
+        align-items: start;
+        box-sizing: border-box;
+    }
+      /* Info section */
+     .footerComponent .compInfo{
+
+        padding: 2vw 2vw 0 2vw;
+        grid-column: 1;
+        grid-row: 1/2 span;
+        box-sizing: border-box;
+    }
+    .compInfo .logoinfo{
+        display: flex;
+        font-size: 1.8rem;
+        font-weight: 500;
+        gap: 1vw;
+        align-items: center;
+        margin-bottom: 7vw;
+    }
+    .compInfo > p{
+        margin: .5vw 0 1vw 0;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+
+    }
+
+    .footerComponent .pages{
+
+        padding: 4vw 2vw 0 2vw;;
+        grid-column: 3;
+        grid-row: 1/2 span;
+        height: 6vw;
+        /* background-color: rgb(127, 136, 255); */
+    }
+    .pages > p , .pages >p > a{
+        font-family: var(--main-font);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2vw;
+        letter-spacing: 0em;
+        text-decoration: none;
+        text-decoration: none;
+    }
+    /* contact info */
+    .footerComponent .call{
+        padding: 2vw 2vw 0 2vw;;
+        grid-column: 2;
+        grid-row: 1;
+        /* height: 3vw; */
+        /* background-color: rgb(255, 127, 234); */
+    }
+    .call > .about-logo{
+        margin: 2rem 0 0;
+    }
+    .about p{
+        font-family: var(--main-font);
+        font-size: .9rem;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+    }
+    .about h4{
+
+        font-family: var(--main-font);
+        color: var(--main-color);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+
+    }
+    .footerComponent .contactForm{
+        /* padding: 2vw; */
+        grid-column: 4;
+        grid-row: 1/2 span;
+        /* height: 30vw; */
+        ;
+        /* background-color: rgb(255, 127, 127); */
+    }
+
+ 
+    .form-container{
+        
+        border-radius: 14px;
+        padding: 2.5rem;
+        background-color: white;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+
+    }
+    .form-container h1{
+    padding-bottom: 1vw;
+    font-size: 2vmax;
+    font-weight: 600;
+    font-family: var(--main-font);
+}
+.form-container h1 span{
+    font-weight: 300;
+}
+.form-column #name {
+    float: left;
+    width: 47%;
+    margin :calc(1vw/2) 2.2% calc(1vw/2) 0;
+    padding: .6rem;
+}
+.form-column #email{
+    float: left;
+    width: 47.5%;
+    margin :calc(1vw/2) 0 calc(1vw/2) 2.2%;
+    
+
+}
+.form-column #subject, .form-column #message , .form-row button{
+    width: 100%;
+}
+.form-column input,.form-column textarea{
+    font-family: var(--main-font);
+    outline: 1px solid var(--input-color);
+    border:1px solid var(--input-border);
+    border-radius: 5px;
+    background-color: var(--input-bg);
+    font-size: 18px;
+    padding: .6rem;
+    margin: calc(1vw/2) 0;
+}
+.form-row button{
+    padding: .8rem;
+    font-size: 20px;
+    font-family: var(--main-font);
+    background-color: white;
+    border-radius: 43px;
+    outline: none;
+    border: 1px solid black;
+}
+bottom:hover{
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid white;
+}
+.contactForm .social{
+    margin: 1.5rem 0 1.5rem 1.5rem;
+    /* padding-left: .6rem; */
+}
+.contactForm .social i{
+    font-size: 20px;
+    padding: .6rem .6rem .6rem 0
+}
+.contactForm{position: relative;
+    top:-20%;}
+  
+}

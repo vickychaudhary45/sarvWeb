@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --title-font: 1.5rem;
+  --price-support-color: rgba(153, 159, 168, 1);
+
+  --main-color: white;
+  --action-color: rgba(39, 137, 255, 1);
+  --p1-text-color: rgba(30, 33, 37, 1);
+  --input-color: rgba(97, 102, 107, 1);
+  --paragraph-content-color: rgba(97, 102, 107, 1);
+  --attract-color: rgba(238, 4, 5, 1);
+  --star-color: rgba(255, 168, 0, 1);
+  --contact-color: rgba(55, 100, 214, 1);
+  --tc-color: rgba(129, 135, 142, 1);
+  --xlll-font: 6rem;
+  --xll-font: 4rem;
+  --nav-logo-font: 1.62rem;
+  --nav-menu-font: 1.125rem;
+  --sc-smallest-font: 1rem;
+  --smallest-font: 0.87rem;
+  --paragraph-h-font: 2.25rem;
+  --paragraph-c-font: var(--nav-menu-font);
+  --price-font: 1.5rem;
+  --card-h-font: 1.17rem;
+  --paragraph2-c-font: 1.25rem;
+  --main-font: 'roboto';
+  --footer-color: rgba(241, 247, 255, 1);
+  --bottom-boder-color: rgba(230, 230, 230, 1);
+  --package-background-color: rgba(241, 244, 248, 1);
+
+}
+
+/* Mobile screens (up to 767px) */
+@media (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+
+  /* Styles for mobile screens */
+
+}
+
+/* Tablet screens (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 12px;
+  }
+
+  ;
+  /* Styles for tablet screens */
+}
+
+/* Desktop screens (1024px to 1439px) */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  html {
+    font-size: 16px;
+  }
+
+  /* Styles for desktop screens */
+}
+
+/* High-resolution laptop screens and larger (1440px and wider) */
+@media (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+
+  /* Styles for high-resolution laptop screens and larger */
+}
+
+
+.my-sweetalert-container {
+  z-index: 9999 !important;
+}
+
+.map>iframe {
+  width: 100%;
+}
+
+/* .activity_body>.activity_component>.included p {
+  font-size: .8rem;
+  color: var(--input-color);
+  line-height: 1.3rem;
+  font-family: 500;
+  display: flex;
+} */
+
+.activity_body>.activity_component>.included>p::before {
+  content: '\2713';
+  display: inline;
+  margin-right: 5px;
+  color: rgba(111, 195, 3, 1);
+}

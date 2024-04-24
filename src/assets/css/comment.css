@@ -1,0 +1,196 @@
+@media screen and (max-width:767px) {
+
+    .comments{
+      margin: 4vw 0;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .commentHeader{
+      padding: 0  1vw 4vw 2vw;
+      display: flex;
+      justify-content: space-between;
+    }
+    .commentHeader> h2{
+      
+      width: 75%;
+      font-family: var(--main-font);
+      font-size: 5vw;
+      width: 500;
+      line-height: 6vw;
+  
+    }
+    .commentHeader > h2>span{
+      font-weight: 300;
+    }
+    .commentHeader>.buttons{
+      font-size: 7vw;
+      color: var(--main-color);
+    }
+    .commentcard {
+      display: flex;
+      width: 85%;
+      padding : 2vw;
+      flex-direction: column;
+      align-self: center;
+      font-family: var(--main-font);
+  
+    }
+    .commentLine{
+      font-size: 4vw;
+      line-height: 6vw;
+    }
+    .commentcard >i{
+      color: orangered;
+      padding: 0 0 4vw 0;
+    }
+    .commentcard >.profile{
+      display: flex;
+      align-items: center;
+      gap: 4vw
+    }
+    .profile >.avatar{
+      font-size: 7vw;
+    }
+    .userDetails > p{
+      font-size: 5vw;
+      margin: 2vw 0 2vw;
+      color: var(--main-color);
+    }
+    .ratings >i{
+      font-size: 5vw;
+      color:orangered
+    }
+  
+  }
+  @media screen and (min-width:768px) and (max-width: 1024px) {
+    .comments{
+      margin: 4vw 0;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .commentHeader{
+      padding: 0  1vw 4vw 2vw;
+      display: flex;
+      justify-content: space-between;
+    }
+    .commentHeader> h2{
+      
+      width: 75%;
+      font-family: var(--main-font);
+      font-size: 5vw;
+      width: 500;
+      line-height: 6vw;
+  
+    }
+    .commentHeader > h2>span{
+      font-weight: 300;
+    }
+    .commentHeader>.buttons{
+      font-size: 7vw;
+      color: var(--main-color);
+    }
+    .commentcard {
+      display: flex;
+      width: 85%;
+      padding : 2vw;
+      flex-direction: column;
+      align-self: center;
+      font-family: var(--main-font);
+  
+    }
+    .commentLine{
+      font-size: 4vw;
+      line-height: 6vw;
+    }
+    .commentcard >i{
+      color: orangered;
+      padding: 0 0 4vw 0;
+    }
+    .commentcard >.profile{
+      display: flex;
+      align-items: center;
+      gap: 4vw
+    }
+    .profile >.avatar{
+      font-size: 7vw;
+    }
+    .userDetails > p{
+      font-size: 5vw;
+      margin: 2vw 0 2vw;
+      color: var(--main-color);
+    }
+    .ratings >i{
+      font-size: 5vw;
+      color:orangered
+    }
+  }
+  @media screen and (min-width:1025px) {
+    .comments{
+      margin: 4vw 0;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .commentHeader{
+      padding: 0  1vw 2vw 2vw;
+      display: flex;
+      justify-content: space-between;
+    }
+    .commentHeader> h2{
+      width: 45%;
+      font-family: var(--main-font);
+      font-size: 3vw;
+      width: 500;
+      line-height: 4vw;
+  
+    }
+    .commentHeader > h2>span{
+      font-weight: 300;
+    }
+    .commentHeader>.buttons{
+      font-size: 3vw;
+      color: var(--main-color);
+    }
+    .usercomments{
+      display: flex;
+    }
+    .commentcard {
+      display: flex;
+      width: 85%;
+      padding : 2vw;
+      flex-direction: column;
+      align-self: center;
+      font-family: var(--main-font);
+  
+    }
+    .commentLine{
+      font-size: 1.5vw;
+      line-height: 2.5vw;
+    }
+    .commentcard >i{
+      color: orangered;
+      padding: 0 0 3vw 0;
+    }
+    .commentcard >.profile{
+      display: flex;
+      align-items: center;
+      gap: 3vw
+    }
+    .profile >.avatar{
+      font-size: 3vw;
+    }
+    .userDetails > p{
+      font-size: 1.8vw;
+      margin: 1vw 0 1vw;
+      color: var(--main-color);
+    }
+    .ratings >i{
+      font-size: 1.5vw;
+      color:orangered
+    }
+  }

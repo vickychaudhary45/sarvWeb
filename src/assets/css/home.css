@@ -1,0 +1,12 @@
+.home-destination {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.home-navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}

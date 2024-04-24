@@ -1,0 +1,452 @@
+/* Reset some default styling */
+@media screen and (max-width:767px) {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Style the search box container */
+    .search-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Style the background image */
+    #bg {
+        width: 100vw;
+        min-height: 100vmax;
+        /* Adjust this for desired image height */
+        object-fit: cover;
+    }
+
+    /* Center content vertically and horizontally */
+    .header-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    /* Style the title */
+    #title {
+        /* font-size: 7vw; */
+        /* Adjust the font size as needed */
+        font-family: var(--main-font);
+        font-weight: 700;
+
+    }
+
+    /* Style the explore text */
+    #explore {
+        font-size: 64px;
+        /* Adjust the font size as needed */
+        margin-top: 20px;
+        font-weight: 300;
+        font-family: var(--main-font);
+        letter-spacing: 3px;
+    }
+
+    /* Style the discover text */
+    #discover {
+        font-size: 3.5vw;
+        /* Adjust the font size as needed */
+        margin-top: 10px;
+        font-weight: 300;
+        font-family: var(--main-font);
+    }
+
+    #discover>span {
+        font-weight: 500;
+    }
+
+    /* Style the list items horizontally */
+    .header-content>ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 10vmax;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-content>ul>li {
+        cursor: pointer;
+        margin: 0 2vw;
+        /* Adjust spacing between list items */
+        font-size: 3vw;
+        font-family: var(--main-font);
+        /* Adjust the font size as needed */
+    }
+
+    .selected {
+        position: relative;
+        /* Position relative for ::after pseudo-element */
+        padding-bottom: 5px;
+        /* Adjust the gap as needed */
+    }
+
+    .selected::after {
+        content: "";
+        /* Create an empty pseudo-element */
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        /* Adjust the height of the underline as needed */
+        background-color: #fff;
+        /* Change the color as needed */
+    }
+
+    .header-content>.search {
+        margin: 4vw;
+        backdrop-filter: blur(8px);
+        padding: 8vmax 4vmax;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content>.search>input {
+        z-index: 2;
+        ;
+        padding: 4vw;
+        margin: 2vw 0;
+        outline: none;
+        border: 1px solid white;
+        border-radius: 43px;
+    }
+
+    .header-content>.search>button {
+        padding: 4vw;
+        margin: 4vw 0;
+        outline: none;
+        border: none;
+        background-color: var(--main-color);
+        border-radius: 43px;
+
+    }
+
+    .header-content>.search>#submit {
+        display: flex;
+        color: white;
+        justify-content: center;
+        gap: 5vw;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Style the search box container */
+    .search-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Style the background image */
+    #bg {
+        width: 100vw;
+        min-height: 100vmax;
+        /* Adjust this for desired image height */
+        object-fit: cover;
+    }
+
+    /* Center content vertically and horizontally */
+    .header-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    /* Style the title */
+    .header-content>#title {
+        /* font-size: 5vw; */
+        /* Adjust the font size as needed */
+        font-family: var(--main-font);
+        font-weight: 700;
+
+    }
+
+    /* Style the explore text */
+    .header-content>#explore {
+        font-size: 5vw;
+        /* Adjust the font size as needed */
+        margin-top: 20px;
+        font-weight: 300;
+        font-family: var(--main-font);
+        letter-spacing: 3px;
+    }
+
+    /* Style the discover text */
+    .header-content>#discover {
+        font-size: 3vw;
+        /* Adjust the font size as needed */
+        margin-top: 10px;
+        font-weight: 300;
+        font-family: var(--main-font);
+    }
+
+    #discover>span {
+        font-weight: 500;
+    }
+
+    /* Style the list items horizontally */
+    .header-content>ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 3vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-content>ul>li {
+        cursor: pointer;
+        margin: 0 2vw;
+        /* Adjust spacing between list items */
+        font-size: 2.5vw;
+        font-family: var(--main-font);
+        /* Adjust the font size as needed */
+    }
+
+    .selected {
+        position: relative;
+        /* Position relative for ::after pseudo-element */
+        padding-bottom: 5px;
+        /* Adjust the gap as needed */
+    }
+
+    .selected::after {
+        content: "";
+        /* Create an empty pseudo-element */
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        /* Adjust the height of the underline as needed */
+        background-color: #fff;
+        /* Change the color as needed */
+    }
+
+    .header-content>.search {
+        margin: 4vw;
+        backdrop-filter: blur(8px);
+        padding: 8vw 4vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content>.search>input {
+        z-index: 2;
+        ;
+        padding: 4vw;
+        margin: 2vw 0;
+        outline: none;
+        border: 1px solid white;
+        border-radius: 43px;
+    }
+
+    .header-content>.search>button {
+        padding: 4vw;
+        margin: 4vw 0;
+        outline: none;
+        border: none;
+        background-color: var(--main-color);
+        border-radius: 43px;
+
+    }
+
+    .header-content>.search>#submit {
+        display: flex;
+        color: white;
+        justify-content: center;
+        gap: 5vw;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
+
+@media screen and (min-width:1025px) {
+
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Style the search box container */
+    .search-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Style the background image */
+    #bg {
+        width: 100%;
+        height: 100vh;
+        /* Adjust this for desired image height */
+        object-fit: cover;
+    }
+
+    /* Center content vertically and horizontally */
+    .header-content {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    /* Style the title */
+    #title {
+        /* font-size: 7vw; */
+        /* Adjust the font size as needed */
+        font-family: var(--main-font);
+        font-weight: 700;
+        /* margin-top: 150px; */
+    }
+
+    /* Style the explore text */
+    #explore {
+        font-size: 4vw;
+        /* Adjust the font size as needed */
+        margin-top: 10px;
+        font-weight: 300;
+        font-family: var(--main-font);
+        letter-spacing: 5px;
+    }
+
+    /* Style the discover text */
+    #discover {
+        font-size: 1.5vw;
+        /* Adjust the font size as needed */
+        margin-top: 10px;
+        font-weight: 300;
+        font-family: var(--main-font);
+    }
+
+    #discover>span {
+        font-weight: 500;
+        /* Change the color as needed */
+    }
+
+    /* Style the list items horizontally */
+    .header-content>ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 3vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-content>ul>li {
+        cursor: pointer;
+        margin: 0 10px;
+        /* Adjust spacing between list items */
+        font-size: 1.2vw;
+        font-family: var(--main-font);
+        /* Adjust the font size as needed */
+    }
+
+    .selected {
+        position: relative;
+        /* Position relative for ::after pseudo-element */
+        padding-bottom: 10px;
+        /* Adjust the gap as needed */
+    }
+
+    .selected::after {
+        content: "";
+        /* Create an empty pseudo-element */
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3px;
+        /* Adjust the height of the underline as needed */
+        background-color: #fff;
+        /* Change the color as needed */
+    }
+
+    /* Style the search input and button container */
+    .header-content>.search {
+        margin: 2rem 20%;
+        border-radius: 43px;
+        border: 1px solid white;
+        display: flex;
+        background-color: white;
+
+
+
+    }
+
+    .header-content>.search>#input {
+        margin: 1.2vw 0 1.2vw 1.2vw;
+        /* padding: 1.5vw; */
+        width: 80%;
+        font-family: Roboto;
+        font-size: 1.5vw;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        border: none;
+        outline: none;
+
+    }
+
+    .header-content>.search>#submit {
+        display: flex;
+        width: 20%;
+        border-radius: 43px;
+        border: 2px solid white;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: #2789FF;
+        color: white
+    }
+
+    .header-content>.search>#submit>p {
+        font-family: Roboto;
+        font-size: 1.5vw;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+
+    }
+}

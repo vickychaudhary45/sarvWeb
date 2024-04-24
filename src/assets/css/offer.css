@@ -1,0 +1,308 @@
+@media  screen and (max-width: 767px) {
+    .offer{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+    .offer-header> h3{
+        padding: 0 4vw;
+        font-size: 13vw;
+        font-family: var(--main-font);
+        font-weight: 500;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .offer-header> h3>span{
+        font-weight: 300;
+    }
+    .view-offer{
+        margin: 10vw 4vw;
+ 
+        
+    }
+    .view-offer > a{
+        padding: 4.5vw 10vw;
+        font-size: 4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: black;
+        border:  1px solid black;
+    }
+    .offer-img{
+        margin-top: 10vw;
+        height: 500px;
+        position: relative;
+    }
+    .offer-img >#one{
+        width: 155px;
+        height: 195px;
+        position: absolute;
+        left: 10%;
+        top:0%
+
+    }
+    .offer-img >#two{
+        width: 165px;
+        height: 140px;
+        position: absolute;
+        right: 20%;
+        top: 50%;
+
+    }
+    .offer-img >#three{
+        width: 165px;
+        height: 135px;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+
+    }
+    .offer-img>.offer{
+        width: 180px;
+        position: absolute;
+        font-family: var(--main-font);
+        color: rgba(238, 4, 5, 1);
+        font-weight: 500;
+        left: 3%;
+        top:50%
+    }
+}
+
+@media  screen and (min-width: 768px) and (max-width:1024px) {
+    .offer{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+    .offer-header> h3{
+        padding: 0 4vw;
+        font-size: 10vw;
+        font-family: var(--main-font);
+        font-weight: 500;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .offer-header> h3>span{
+        font-weight: 300;
+    }
+    .view-offer{
+        margin: 10vw 0 10vw 4vw;
+ 
+        
+    }
+    .view-offer > a{
+        padding: 2vw 4vw;
+        font-size: 2vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: black;
+        border:  1px solid black;
+    }
+    .offer-img{
+        margin-top: 10vw;
+        height: 600px;
+        background-size: 300px 200px;
+       
+        position: relative;
+    }
+    .offer-img >#one{
+        width: 155px;
+        height: 195px;
+        position: absolute;
+        left: 20%;
+        top:0%
+
+    }
+    .offer-img >#two{
+        width: 210px;
+        height: 150px;
+        position: absolute;
+        right: 30%;
+        top: 40%;
+
+    }
+    .offer-img >#three{
+        width: 235px;
+        height: 175px;
+        position: absolute;
+        right: 20%;
+        top: 0%;
+
+    }
+    .offer-img>.offer{
+        width: 180px;
+        position: absolute;
+        font-family: var(--main-font);
+        color: rgba(238, 4, 5, 1);
+        font-weight: 500;
+        left: 10%;
+        top:40%
+    }
+}
+
+@media  screen and (min-width: 1025px) and (max-width:1366px) {
+    .offer{
+        display: flex;
+        /* flex-direction: column; */
+        box-sizing: border-box;
+ 
+    }
+    .offer-details{
+        width: 30%;
+    }
+    .offer-header> h3{
+        padding: 0 3vw;
+        font-size: 4vw;
+        font-family: var(--main-font);
+        font-weight: 500;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .offer-header> h3>span{
+        font-weight: 300;
+    }
+    .view-offer{
+        margin: 5vw 0 5vw 4vw;
+ 
+        
+    }
+    .view-offer > a{
+        padding: 1.5vw 3vw;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: black;
+        border:  1px solid black;
+    }
+    .offer-img{
+        width: 70%;
+        height: 600px;
+        background-size: 300px 200px;
+       
+        position: relative;
+    }
+    .offer-img >#one{
+        width: 155px;
+        height: 195px;
+        position: absolute;
+        left: 20%;
+        top:0%
+
+    }
+    .offer-img >#two{
+        width: 250px;
+        height: 190px;
+        position: absolute;
+        right: 30%;
+        top: 40%;
+
+    }
+    .offer-img >#three{
+        width: 245px;
+        height: 205px;
+        position: absolute;
+        right: 20%;
+        top: 0%;
+
+    }
+    .offer-img>.offer{
+        width: 180px;
+        position: absolute;
+        font-family: var(--main-font);
+        color: rgba(238, 4, 5, 1);
+        font-weight: 500;
+        left: 10%;
+        top:40%
+    }
+    
+}
+
+@media  screen and (min-width: 1367px) {
+    .offer{
+        display: flex;
+        /* flex-direction: column; */
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+    .offer-details{
+        width: 30%;
+    }
+    .offer-header> h3{
+        padding: 0 3vw;
+        font-size: 4vw;
+        font-family: var(--main-font);
+        font-weight: 500;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .offer-header> h3>span{
+        font-weight: 300;
+    }
+    .view-offer{
+        margin: 5vw 0 5vw 4vw;
+ 
+        
+    }
+    .view-offer > a{
+        padding: 1.5vw 3vw;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+    .offer-img{
+
+        width: 70%;
+        height: 700px;
+        position: relative;
+     
+    }
+    .offer-img >#one{
+        width: 225px;
+        height: 295px;
+        position: absolute;
+        left: 10vw
+
+    }
+    .offer-img >#two{
+        width: 205px;
+        height: 260px;
+        position: absolute;
+        right: 10%;
+        top: 10%;
+
+    }
+    .offer-img >#three{
+        width: 205px;
+        height: 255px;
+        position: absolute;
+        right: 24vw;
+        top: 40%;
+
+    }
+    .offer-img>.offer{
+        width: 180px;
+        position: absolute;
+        left: 10%;
+        top:65%;
+        font-family: var(--main-font);
+        color: rgba(238, 4, 5, 1);
+        font-weight: 500;
+    }
+    
+}

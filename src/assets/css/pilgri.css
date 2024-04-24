@@ -1,0 +1,474 @@
+@media  screen and (max-width: 767px) {
+    .pigri{
+        background-color: rgba(233, 237, 242, 1);
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+    .pilgri-header> h3{
+        padding: 0 4vw;
+        font-size: 13vw;
+        font-family: var(--main-font);
+        font-weight: 400;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .pilgri-desc{
+        width: 90%;
+        padding: 2vw 0 0 4vw;
+        font-size: 4vw;
+        font-family: var(--main-font);
+        line-height: 5.5vw;
+        font-weight: 400;
+        color: rgba(30, 33, 37, 1);
+
+
+    }
+    .view-pilgri{
+        margin: 10vw 4vw;
+ 
+        
+    }
+    .view-pilgri > a{
+        padding: 4.5vw 10vw;
+        font-size: 4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+    .pilgriCards{
+        background-color: white;
+        margin:3vw;
+        border-radius: 15px;
+        padding: 4vw;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+    .pilgriCards-name >h4{
+        font-size: 6vw;
+        font-family: var(--main-font);
+        line-height: 9vw;
+        font-weight: 600;
+    }
+    .pilgriCards-duration{
+        font-size: 5vw;
+        font-family: var(--main-font);
+        line-height: 9vw;
+        font-weight: 400;
+    }
+    .pilgriCards-price{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .pilgriCards-price >h4{
+        font-size: 6vw;
+        font-family: var(--main-font);
+        line-height: 9vw;
+        font-weight: 600;
+        color: rgba(238, 4, 5, 1);
+
+    }
+    .pilgriCards-price>i{
+        font-size: 40px;
+       color:var(--main-color)
+    }
+
+    .pilgri-img{
+        margin-top: 10vw;
+        height: 500px;
+        filter: brightness(94%);
+        background-image: url('../img//homebody/pilgri/pigriBG.png');
+        position: relative;
+    }
+    .pilgri-img >#one{
+        width: 195px;
+        height: 195px;
+        position: absolute;
+        left: 30vw
+
+    }
+    .pilgri-img >#two{
+        width: 165px;
+        height: 160px;
+        position: absolute;
+        left: 0%;
+        top: 30vh;
+
+    }
+    .pilgri-img >#three{
+        width: 175px;
+        height: 175px;
+        position: absolute;
+        right: 0vw;
+        top: 50%;
+
+    }
+}
+
+@media  screen and (min-width: 768px) and (max-width:1024px) {
+    .pigri{
+        background-color: rgba(233, 237, 242, 1);
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+    .pilgri-header> h3{
+        padding: 0 4vw;
+        font-size: 10vw;
+        font-family: var(--main-font);
+        font-weight: 400;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .pilgri-desc{
+        width: 90%;
+        padding: 2vw 0 0 4vw;
+        font-size: 3vw;
+        font-family: var(--main-font);
+        line-height: 5.5vw;
+        font-weight: 400;
+        color: rgba(30, 33, 37, 1);
+
+
+    }
+    .view-pilgri{
+        margin: 10vw 4vw;
+ 
+        
+    }
+    .view-pilgri > a{
+        padding: 3vw 6vw;
+        font-size: 3vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+    .pilgriCards{
+        max-width: 50%;
+        background-color: white;
+        margin:3vw;
+        border-radius: 15px;
+        padding: 3vw;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pilgriCards-name >h4{
+        font-size: 3vw;
+        font-family: var(--main-font);
+        line-height: 6vw;
+        font-weight: 600;
+    }
+    .pilgriCards-duration{
+        font-size: 2.5vw;
+        font-family: var(--main-font);
+        line-height: 6vw;
+        font-weight: 400;
+    }
+    .pilgriCards-price{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .pilgriCards-price >h4{
+        font-size: 3vw;
+        font-family: var(--main-font);
+        line-height: 6vw;
+        font-weight: 600;
+        color: rgba(238, 4, 5, 1);
+
+    }
+    .pilgriCards-price>i{
+        font-size: 40px;
+       color:var(--main-color)
+    }
+
+    .pilgri-img{
+        margin-top: 10vw;
+        height: 600px;
+        filter: brightness(94%);
+        background-image: url('../img//homebody/pilgri/pigriBG.png');
+        position: relative;
+    }
+    .pilgri-img >#one{
+        width: 295px;
+        height: 295px;
+        position: absolute;
+        left: 30vw
+
+    }
+    .pilgri-img >#two{
+        width: 265px;
+        height: 260px;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+
+    }
+    .pilgri-img >#three{
+        width: 255px;
+        height: 255px;
+        position: absolute;
+        right: 0vw;
+        top: 50%;
+
+    }
+    
+}
+
+@media  screen and (min-width: 1025px) and (max-width:1366px) {
+    .pigri{
+        background-color: rgba(233, 237, 242, 1);
+        display: flex;
+       
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+    .pilgri-details{
+        width: 40%;
+    }
+    .pilgri-header> h3{
+        padding: 0 3vw;
+        font-size: 7vw;
+        font-family: var(--main-font);
+        font-weight: 400;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .pilgri-desc{
+        width: 90%;
+        padding: 2vw 0 0 4vw;
+        font-size: 1.2vw;
+        font-family: var(--main-font);
+        line-height: 2.5vw;
+        font-weight: 400;
+        color: rgba(30, 33, 37, 1);
+
+
+    }
+    .view-pilgri{
+        margin: 6vw 3vw;
+ 
+        
+    }
+    .view-pilgri > a{
+        padding: 1.5vw 3vw;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+    .pilgriCards{
+ 
+        background-color: white;
+        margin:3vw;
+        border-radius: 15px;
+        padding: 1.5vw;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pilgriCards-name >h4{
+        font-size: 2vw;
+        font-family: var(--main-font);
+ 
+        font-weight: 600;
+    }
+    .pilgriCards-duration{
+        font-size: 1.5vw;
+        font-family: var(--main-font);
+        padding: 2vw 0;
+        font-weight: 400;
+    }
+    .pilgriCards-price{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .pilgriCards-price >h4{
+        font-size: 2vw;
+        font-family: var(--main-font);
+      
+        font-weight: 600;
+        color: rgba(238, 4, 5, 1);
+
+    }
+    .pilgriCards-price>i{
+        font-size: 40px;
+       color:var(--main-color)
+    }
+
+    .pilgri-img{
+        width: 60%;
+        margin-top: 10vw;
+        height: 600px;
+        filter: brightness(94%);
+        background-image: url('../img//homebody/pilgri/pigriBG.png');
+        position: relative;
+    }
+    .pilgri-img >#one{
+        width: 295px;
+        height: 295px;
+        position: absolute;
+        left: 20vw
+
+    }
+    .pilgri-img >#two{
+        width: 265px;
+        height: 260px;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+
+    }
+    .pilgri-img >#three{
+        width: 255px;
+        height: 255px;
+        position: absolute;
+        right: 0vw;
+        top: 50%;
+
+    }
+    
+}
+
+@media  screen and (min-width: 1367px) {
+    .pigri{
+        background-color: rgba(233, 237, 242, 1);
+        display: flex;
+       
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+    .pilgri-details{
+        width: 40%;
+    }
+    .pilgri-header> h3{
+        padding: 0 3vw;
+        font-size: 7vw;
+        font-family: var(--main-font);
+        font-weight: 400;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .pilgri-desc{
+        width: 90%;
+        padding: 2vw 0 0 4vw;
+        font-size: 1.2vw;
+        font-family: var(--main-font);
+        line-height: 2.5vw;
+        font-weight: 400;
+        color: rgba(30, 33, 37, 1);
+
+
+    }
+    .view-pilgri{
+        margin: 6vw 3vw;
+ 
+        
+    }
+    .view-pilgri > a{
+       
+            padding: 1.5vw 3vw;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+    .pilgriCards{
+ 
+        background-color: white;
+        margin:3vw;
+        border-radius: 15px;
+        padding: 1.5vw;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pilgriCards-name >h4{
+        font-size: 2vw;
+        font-family: var(--main-font);
+ 
+        font-weight: 600;
+    }
+    .pilgriCards-duration{
+        font-size: 1.5vw;
+        font-family: var(--main-font);
+        padding: 2vw 0;
+        font-weight: 400;
+    }
+    .pilgriCards-price{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .pilgriCards-price >h4{
+        font-size: 2vw;
+        font-family: var(--main-font);
+      
+        font-weight: 600;
+        color: rgba(238, 4, 5, 1);
+
+    }
+    .pilgriCards-price>i{
+        font-size: 40px;
+       color:var(--main-color)
+    }
+
+    .pilgri-img{
+        width: 60%;
+        margin-top: 10vw;
+        height: 600px;
+        filter: brightness(94%);
+        background-image: url('../img//homebody/pilgri/pigriBG.png');
+        background-repeat: no-repeat;
+        object-fit: cover;
+        position: relative;
+    }
+    .pilgri-img >#one{
+        width: 295px;
+        height: 295px;
+        position: absolute;
+        left: 20vw
+
+    }
+    .pilgri-img >#two{
+        width: 265px;
+        height: 260px;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+
+    }
+    .pilgri-img >#three{
+        width: 255px;
+        height: 255px;
+        position: absolute;
+        right: 0vw;
+        top: 50%;
+
+    }
+}

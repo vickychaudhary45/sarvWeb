@@ -1,0 +1,404 @@
+@media screen and (max-width:767px) {
+    .recom-section{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+    .recom-details{
+        
+    }
+    .recom-header{
+        padding: 0 4vw;
+        font-size: 6vw;
+        font-family: var(--main-font);
+        line-height: 9vw;
+        font-weight: 600;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .recom-header >h3 > span{
+        font-weight: 300;
+    }
+    .recom-desc{
+        padding: 2vw 0 0 4vw;
+        font-size: 4vw;
+        font-family: var(--main-font);
+        line-height: 5.5vw;
+        font-weight: 400;
+        color: rgba(97, 102, 107, 1);
+
+    }
+     .view-recom{
+        margin: 10vw 4vw;
+ 
+        
+    }
+    .view-recom > a{
+        padding: 4.5vw 10vw;
+        font-size: 4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+    .recom-slider{
+        
+        margin: 8vw 0;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+   .recom-card{
+   
+    padding: 0 2vw;
+   }
+   .recom-card > img{
+    box-shadow: 0px 4px 3px black;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 15px;
+   }
+    .recom-card >.card-info{
+        text-shadow: 2px 1px black;
+        border-radius: 15px;
+        object-fit: cover;
+        padding:  0 6vw ;
+        object-fit: contain;
+        color : White;
+        position: relative;
+        bottom:13vmax;
+    }
+
+    .recom-card >.card-info> h2{
+      
+        font-family: var(--main-font);
+        font-size: 8vw;
+        line-height: 25px;
+        font-weight: 500;
+    }
+    .recom-card >.card-info> p{
+        font-family: var(--main-font);
+        font-size: 4vw;
+        line-height: 10vw;
+        font-weight: 300;
+        
+    }
+    .recom-card >.card-info> p>span{
+        font-weight: 500;
+        font-size: 4.5vw;
+    }
+         
+   ul.slick-dots>li{
+    bottom:25px;
+    
+   }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .recom-section{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10vw 0;
+    }
+    .recom-details{
+        
+    }
+    .recom-header{
+        padding: 0 4vw;
+        font-size: 5vw;
+        font-family: var(--main-font);
+        line-height: 8vw;
+        font-weight: 600;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .recom-header >h3 > span{
+        font-weight: 300;
+    }
+    .recom-desc{
+        width: 90%;
+        padding: 2vw 0 0 4vw;
+        font-size: 3vw;
+        font-family: var(--main-font);
+        line-height: 4.5vw;
+        font-weight: 400;
+        color: rgba(97, 102, 107, 1);
+
+    }
+     .view-recom{
+        margin: 10vw 0 10vw 4vw;
+ 
+        
+    }
+    .view-recom > a{
+        padding: 2vw 4vw;
+        font-size: 2vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+    .recom-slider{
+        
+        margin: 8vw 0;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+   .recom-card{
+   
+    padding: 0 2vw;
+   }
+   .recom-card > img{
+    box-shadow: 0px 4px 3px black;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 15px;
+   }
+    .recom-card >.card-info{
+        text-shadow: 2px 1px black;
+        border-radius: 15px;
+        object-fit: cover;
+        padding:  0 4vw ;
+        object-fit: contain;
+        color : White;
+        position: relative;
+        bottom:10vmax;
+    }
+
+    .recom-card >.card-info> h2{
+      
+        font-family: var(--main-font);
+        font-size: 3vw;
+        line-height: 25px;
+        font-weight: 500;
+    }
+    .recom-card >.card-info> p{
+        font-family: var(--main-font);
+        font-size: 2vw;
+        line-height: 5vw;
+        font-weight: 300;
+        
+    }
+    .recom-card >.card-info> p>span{
+        font-weight: 500;
+        font-size: 2.5vw;
+    }
+         
+   ul.slick-dots>li{
+    bottom:25px;
+    
+   }}
+@media screen and (min-width:1025px) and (max-width:1366px) {
+    .recom-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .recom-details{
+        margin: -4vw 0 0 0;
+        width: 30%;
+    }
+    .recom-header{
+        padding: 0 2vw 0 1vw;
+        font-size: 2.5vw;
+        font-family: var(--main-font);
+        line-height: 3.5vw;
+        font-weight: 600;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .recom-header >h3 > span{
+        font-weight: 300;
+    }
+    
+    .recom-desc{
+        width: 90%;
+        padding: 2vw 0 0 1vw;
+        font-size: 1.4vw;
+        font-family: var(--main-font);
+        line-height: 2.5vw;
+        font-weight: 400;
+        color: rgba(97, 102, 107, 1);
+
+    }
+
+    .view-recom{
+        margin: 5vw 0 5vw 1vw;
+ 
+        
+    }
+    .view-recom > a{
+        padding: 1.5vw 3vw;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: white;
+        background-color: var(--main-color);
+    }
+    .recom-slider{
+        margin: -4vw 0 0 0;
+        width: 65%;
+        height: 28vmax;
+        object-fit: cover;
+      
+    }
+    .recom-card{
+        padding: 0 10px
+    }
+    .recom-card > img{
+        box-shadow: 0px 4px 3px black;
+        width: 100%;
+        height: 28vmax;
+        object-fit: cover;
+        border-radius: 15px;
+       }
+       .recom-card >.card-info{
+        text-shadow: 2px 1px black;
+        border-radius: 15px;
+        object-fit: cover;
+        padding:  0 2vw ;
+        object-fit: contain;
+        color : White;
+        position: relative;
+        bottom:5vmax;
+    }
+    .recom-card >.card-info> h2{
+      
+        font-family: var(--main-font);
+
+        font-weight: 500;
+    }
+    .recom-card >.card-info> p{
+        font-family: var(--main-font);
+
+        font-weight: 300;
+        
+    }
+    .recom-card >.card-info> p>span{
+        font-weight: 500;
+
+    }
+         
+   ul.slick-dots>li{
+    bottom:25px;
+    display: none;
+    
+   }
+}
+
+@media screen and (min-width:1367px) {
+    .recom-section{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .recom-details{
+        margin: -4vw 0 0 0;
+        width: 30%;
+    }
+    .recom-header{
+        padding: 0 2vw 0 1vw;
+        font-size: 2.5vw;
+        font-family: var(--main-font);
+        line-height: 3.5vw;
+        font-weight: 600;
+        color: rgba(30, 33, 37, 1);
+        box-sizing: border-box
+        ;
+
+    }
+    .recom-header >h3 > span{
+        font-weight: 300;
+    }
+    
+    .recom-desc{
+        width: 90%;
+        padding: 2vw 0 0 1vw;
+        font-size: 1.4vw;
+        font-family: var(--main-font);
+        line-height: 2.5vw;
+        font-weight: 400;
+        color: rgba(97, 102, 107, 1);
+
+    }
+
+    .view-recom{
+        margin: 5vw 0 5vw 1vw;
+ 
+        
+    }
+    .view-recom > a{
+        padding: 1.5vw 3vw;
+        font-size: 1.4vw;
+        text-decoration: none;
+        font-family: var(--main-font);
+        border-radius: 43px;
+        color: black;
+        border:  1px solid black;
+    }
+    .recom-slider{
+        margin: -4vw 0 0 0;
+        width: 65%;
+        height: 28vmax;
+        object-fit: cover;
+      
+    }
+    .recom-card{
+        padding: 0 10px
+    }
+    .recom-card > img{
+        box-shadow: 0px 4px 3px black;
+        width: 100%;
+        height: 28vmax;
+        object-fit: cover;
+        border-radius: 15px;
+       }
+       .recom-card >.card-info{
+        text-shadow: 2px 1px black;
+        border-radius: 15px;
+        object-fit: cover;
+        padding:  0 2vw ;
+        object-fit: contain;
+        color : White;
+        position: relative;
+        bottom:5vmax;
+    }
+    .recom-card >.card-info> h2{
+      
+        font-family: var(--main-font);
+
+        font-weight: 500;
+    }
+    .recom-card >.card-info> p{
+        font-family: var(--main-font);
+
+        font-weight: 300;
+        
+    }
+    .recom-card >.card-info> p>span{
+        font-weight: 500;
+
+    }
+         
+   ul.slick-dots>li{
+    bottom:25px;
+    display: none;
+    
+   }
+}

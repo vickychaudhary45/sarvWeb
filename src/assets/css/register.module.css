@@ -1,0 +1,120 @@
+.Rcontainer {
+    background-image: url(https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.Rinner {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.Rinput {
+    width: 90%;
+    height: 35px;
+    border: none;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+.Rinput:focus {
+    border: 1px solid rgb(0, 168, 255);
+    outline: none;
+}
+
+.btn:hover {
+    transition-duration: 300ms;
+    background: linear-gradient(to right, rgb(0, 168, 255), rgb(2, 232, 255));
+}
+
+.btn {
+    background: linear-gradient(to left, rgb(0, 168, 255), rgb(2, 232, 255));
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 15px;
+    transition-duration: 300ms;
+    margin-top: 10px;
+}
+
+.welcome {
+    color: #1d3f58;
+    font-family: "Gill Sans", sans-serif;
+    margin-bottom: 25px;
+}
+
+.dontText {
+    color: #1d3f58;
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 9px;
+}
+
+.dont {
+    color: #1d3f58;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.errorMsg {
+    color: red;
+    font-family: "Gill Sans", sans-serif;
+    /* margin-top: px; */
+}
+
+.appLogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.images {
+    width: 30px;
+    height: 30px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 0;
+}
+
+.line {
+    color: #1d3f58;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 11px;
+    /* margin-bottom: -25px; */
+    margin-top: -24px;
+}
+
+@media (max-width: 600px) {
+    .Rinput {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
